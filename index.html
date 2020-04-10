@@ -19,10 +19,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto"></ul>
-          <li class="navbar-text">
+          <li class="navbar-text" onclick="goToAbout()">
             ABOUT ME
           </li>
-          <li class="navbar-text">
+          <li class="navbar-text" onclick="goToContact()">
             CONTACT
           </li>
         </div>
@@ -40,8 +40,14 @@
        </div>
 </header>
 
+<div class="col-md-12 header-text-mobile">
+    <h1>Software Developer 
+        & DevOps</h1>
+        
+ </div>
+
 <section class="container text-center"> 
-   <div class="about-section">
+   <div class="about-section" id="about">
        <h1>Hi, I'm Sergio. Nice to meet you.</h1>
         <p>My journey started 3 year ago when a friend spoke to me about <br>
             software and programming languages. Since then I can't stop learning. <br>
@@ -52,10 +58,8 @@
 </section>
 
 <section class="portfolio col-md-12">
-    <a href="" style="color:white;font-size:200px;"> <i class="fas fa-user"></i></a>
 
-
-    <h1>Portfolio Test</h1>
+    <h1>Portfolio</h1>
 
     <div class="row">
         <div class="col-md-3 side-bar">
@@ -121,7 +125,7 @@
     </div>
 </section>
 
-<section class="contact col-md-12 text-center">
+<section class="contact col-md-12 text-center" id="contact">
     <h1>How can I help you?</h1>
     <div class="container p-4">
 
@@ -166,6 +170,7 @@
         </div>
     </div>
 </footer>
-
+ 
+<script src="js/index.js"></script>
 </body>
 </html>
