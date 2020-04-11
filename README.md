@@ -10,5 +10,4 @@ Tech used in this project:
 4. Fontawesome.
 
 Future Updates:
-Add animations.
-Fix resposive adaptation for mobile and tablets.
+Integrate react/redux in the project.
