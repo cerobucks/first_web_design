@@ -9,5 +9,3 @@ Tech used in this project:
 3. Google Fonts.
 4. Fontawesome.
 
-Future Updates:
-Integrate react/redux in the project.
